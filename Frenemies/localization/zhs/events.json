@@ -1,0 +1,8 @@
+{
+  "DUEL_OF_SHADOWS.title": "阴影决斗",
+  "DUEL_OF_SHADOWS.pages.INITIAL.description": "两面黑玻璃铸的台座从地里升起，每一面上都刻着你们中一个人的轮廓。\n\n[b]七个回合。你打出的一切都在回合末一次性结算，而你们的影子会优先回应看起来还最健康的那个。\n\n这里不流血。你唯一可能输掉的东西是牌。[/b]\n\n那个声音没有嘴，但听起来相当愉快。",
+  "DUEL_OF_SHADOWS.pages.INITIAL.options.ACCEPT.title": "走上台座",
+  "DUEL_OF_SHADOWS.pages.INITIAL.options.ACCEPT.description": "所有人，同时。",
+  "DUEL_OF_SHADOWS.pages.RESULT.description": "黑玻璃暗了下去。有人的牌组要变样了。",
+  "DUEL_OF_SHADOWS.loss": "影子们并没打算就此收场。"
+}

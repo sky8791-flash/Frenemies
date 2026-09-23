@@ -1,0 +1,39 @@
+[h1]该死的敌人竟敢伪装成队友 (Frenemies)[/h1]
+联机共享问号事件「[b]阴影决斗 / Duel of Shadows[/b]」——在同一张地图上，你们将彼此为敌。这里不流血，你唯一可能输掉的东西，是牌。
+
+[h2]◆ 玩法[/h2]
+[list]
+[*]队伍里会出现一个新的共享问号事件「阴影决斗」（需要至少 2 名玩家，单人局不会出现）。走上台座后全员进入决斗：[b]每个玩家对应一只 100 点生命的影子[/b]。
+[*]你无法把自己的影子选为目标——只能打别人的影子。全体敌人类卡牌仍会波及自己的影子，伤害会记在自己账上（设计如此，慎重使用 AOE）。
+[*]你对影子造成的伤害不会立即生效，而是全部记账，[b]回合末一次性开奖结算[/b]，共 7 个回合。开奖时会把你当前的格挡镜像给影子参与吸收，开奖后你的格挡清零。
+[*]每回合开奖后按影子剩余血量排定名次。
+[*]决斗结束后进入「进贡链」：名次相邻的玩家两两换牌——胜者从败者的牌组里挑一张拿走，再从自己的牌里挑一张交给对方。牌组规模不变，输的人只输牌。
+[/list]
+
+[h2]◆ 注意事项[/h2]
+[list]
+[*]影子不会行动，决斗场上也没有其他敌人。「不流血」只针对影子——自伤类卡牌仍然会掉真血。
+[*]若所有影子提前死亡，决斗会提前结束并直接结算名次。
+[*]决斗中途存档退出再读档，决斗进度（轮数与记账）会重置。
+[*]影子的外观沿用对应角色的原版模型；第三方角色若没有对应模型，会回退为通用小人。
+[/list]
+
+[h2]◆ 联机与兼容[/h2]
+[list]
+[*]本 mod 影响玩法：进房前请确认[b]房内所有玩家都已订阅并启用[/b]。
+[*]基于 Harmony 实现，未修改任何原版数据表，理论上与其他 mod 兼容。
+[/list]
+
+[h2]◆ 调试命令（需开启调试命令）[/h2]
+[list]
+[*][code]dueldebug[/code] — 查看本机记账与钩子状态，用于排查联机不同步（两端逐字比对快照）。
+[*][code]duelpool[/code] — 强制下一个问号事件为阴影决斗（测试用）。
+[/list]
+
+[h2]◆ 版本[/h2]
+[b]0.2.0[/b] — 决斗延长为 7 回合；多项稳定性修复。
+[b]0.1.0[/b] — 首发。
+
+[hr]
+[h2]English[/h2]
+A shared "?" event for co-op runs (2+ players): [b]Duel of Shadows[/b]. Every player owns a 100 HP shadow — you can't target your own, only everyone else's. Damage dealt to shadows is banked and paid out in one lump sum at the end of each round, for 7 rounds. Afterwards players are ranked and adjacent ranks exchange cards: the winner takes one card from the loser's deck and gives one back in return. Deck sizes stay the same. No real HP is lost here (self-damage still hurts). All players must subscribe. Based on Harmony, compatible with other mods.

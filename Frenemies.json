@@ -1,0 +1,12 @@
+{
+  "id": "Frenemies",
+  "name": "该死的敌人竟敢伪装成队友 (Frenemies)",
+  "author": "frenemies",
+  "description": "联机问号事件：队友在同一回合内互相角力，回合末统一开奖。打的是彼此的影子，掉不了真血——输的人只输牌。",
+  "version": "0.2.0",
+  "min_game_version": "0.111.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": true
+}

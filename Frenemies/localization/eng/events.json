@@ -1,0 +1,8 @@
+{
+  "DUEL_OF_SHADOWS.title": "Duel of Shadows",
+  "DUEL_OF_SHADOWS.pages.INITIAL.description": "Two pedestals of black glass rise from the floor, each carved with the silhouette of one of you.\n\n[b]Seven rounds. Everything you play is paid out at once, at the end of the round, and your shadows answer whoever still looks healthiest.\n\nNo blood is drawn here. The only thing you can lose is a card.[/b]\n\nThe voice has no mouth, but it sounds delighted.",
+  "DUEL_OF_SHADOWS.pages.INITIAL.options.ACCEPT.title": "Take the pedestals",
+  "DUEL_OF_SHADOWS.pages.INITIAL.options.ACCEPT.description": "All of you, at once.",
+  "DUEL_OF_SHADOWS.pages.RESULT.description": "The glass goes dark. Somebody is going to have a different deck now.",
+  "DUEL_OF_SHADOWS.loss": "The shadows had no intention of finishing."
+}
