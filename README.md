@@ -33,7 +33,9 @@
 | `Frenemies.json` | mod 清单（id、版本、`min_game_version`） |
 | `Frenemies.pck` | 本地化文本与事件图片等 Godot 资源 |
 
-本仓库不含构建产物，需要自行编译：
+**预编译包**：到 [Releases](https://github.com/sky8791-flash/Frenemies/releases/tag/v0.2.0) 下载 `Frenemies-v0.2.0.zip`，解压后把整个 `Frenemies/` 文件夹放进 `<游戏目录>/mods/`。zip SHA-256：`5f4c1c5e1108db2b78022dc60539da682380bdabc1a8d485879f472c428beabe`。仓库是私有的，Release 页同样要登录才可见。
+
+从源码编译：
 
 1. 装好 .NET 9 SDK、Godot 4.5.1 mono 版，以及已安装的本体游戏。
 2. 编辑 `Frenemies.csproj` 里的 `Sts2Dir` 和 `GodotExe`，改成你本机的实际路径。
